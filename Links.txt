@@ -1,0 +1,19 @@
+* Versiones de NodeJS y releases: 
+  - https://nodejs.org/en/about/previous-releases
+
+* Instalacion de NVM: 
+  - https://tecadmin.net/install-nvm-macos-with-homebrew/
+
+* Buenas Practicas:
+  - https://www.robinwieruch.de/javascript-naming-conventions/
+  - https://standardjs.com/
+
+* Varios
+  - Comparacion de parseInt vs Number: https://medium.com/@emreavcilar/javascript-parseint-vs-number-8186ef8e29c1  
+  - Number.NaN(): https://www.w3schools.com/jsref/jsref_isnan_number.asp
+
+
+* Comparaciones:
+  - https://jsben.ch/
+  - https://www.measurethat.net/
+  
