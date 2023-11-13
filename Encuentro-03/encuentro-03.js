@@ -151,3 +151,60 @@ Tema 6: Structuras de Datos
       miSet.forEach(elemento => {
         console.log(elemento);
       });
+
+
+
+
+/*
+Tema : Operadores
+------------------------------------ */
+// - Operadores Aritmeticos:
+/*    + (Addition)
+      - (Subtraction)
+      * (Multiplication)
+      ** (Exponentiation)
+      / (Division)
+      % (Modulus i.e. Remainder)
+      ++ (Increment) (Prefijo y postfijo)
+      -- (Decrement)
+*/
+    let x = 5
+    let y = x++ // y obtiene el valor original de x (5), luego x se incrementa en 1
+    console.log(x) // Muestra 6
+    console.log(y) // Muestra 5
+
+    let a = 5
+    let b = ++a // a se incrementa en 1 y b obtiene el nuevo valor de a (6)
+    console.log(a) // Muestra 6
+    console.log(b) // Muestra 6
+
+// - Operadores de Comparacion:
+//    Los operadores de comparación en JavaScript se utilizan para comparar dos valores y determinar si una condición es verdadera o falsa
+          
+    // Igualdad (==): Compara si dos valores son iguales, pero no considera el tipo de dato. Si los valores son equivalentes, devuelve true; de lo contrario, devuelve false.
+      5 == "5" // true
+
+    // Igualdad estricta (===): Compara si dos valores son iguales y tienen el mismo tipo de dato. Si los valores son equivalentes y del mismo tipo, devuelve true; de lo contrario, devuelve false.
+      5 === 5 // true
+      5 === "5" // false
+
+    // Desigualdad (!=): Compara si dos valores no son iguales, sin tener en cuenta el tipo de dato. Si los valores no son equivalentes, devuelve true; de lo contrario, devuelve false.
+      5 != "3" // true
+
+    // Desigualdad estricta (!==): Compara si dos valores no son iguales o no tienen el mismo tipo de dato. Si los valores no son equivalentes o no son del mismo tipo, devuelve true; de lo contrario, devuelve false.
+      5 !== 5 // false
+      5 !== "5" // true
+
+    // Mayor que (>): Compara si el valor de la izquierda es mayor que el valor de la derecha. Si es cierto, devuelve true; de lo contrario, devuelve false.
+      10 > 5 // true
+
+    // Menor que (<): Compara si el valor de la izquierda es menor que el valor de la derecha. Si es cierto, devuelve true; de lo contrario, devuelve false.
+      3 < 7 // true
+
+    // Mayor o igual que (>=): Compara si el valor de la izquierda es mayor o igual que el valor de la derecha. Si es cierto, devuelve true; de lo contrario, devuelve false.
+      10 >= 10 // true
+
+    // Menor o igual que (<=): Compara si el valor de la izquierda es menor o igual que el valor de la derecha. Si es cierto, devuelve true; de lo contrario, devuelve false.
+      3 <= 3 // true
+
+      
