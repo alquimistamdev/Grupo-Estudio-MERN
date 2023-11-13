@@ -1,0 +1,50 @@
+JSON (Creación, Manipulación, Borrado de un Elemento)
+-----------------------------------------------------
+  Creación:
+    1) Crea un objeto JSON que represente información sobre un libro (título, autor, año de publicación).
+    2) Crea un objeto JSON que describa un automóvil (marca, modelo, año).
+    3) Crea un objeto JSON que contenga información sobre una película (título, director, género).
+  Acceso y Modificación:
+    4) Accede y muestra el autor del libro creado en el ejercicio 1.
+    5) Modifica el año de publicación del libro creado en el ejercicio 1 y muestra el objeto modificado.
+    6) Accede al género de la película creada en el ejercicio 3 y muestra el resultado.
+    7) Cambia el título de la película creada en el ejercicio 3 y muestra el objeto modificado.
+  Borrado de un Elemento:
+    8) Crea un objeto JSON que represente información sobre una persona (nombre, edad, ciudad).
+    9) Borra la propiedad "edad" del objeto persona creado en el ejercicio 8 y muestra el objeto modificado.
+   10) Borra la propiedad "marca" del objeto del automóvil creado en el ejercicio 2 y muestra el objeto modificado.
+
+Arrays
+------------------------------------------------------
+  Creación:
+   11) Crea un array que contenga nombres de frutas (manzana, plátano, fresa).
+   12) Crea un array con números pares del 2 al 10.
+   13) Crea un array con colores (rojo, verde, azul, amarillo).
+  Recorrido y Manipulación:
+   14) Recorre el array de frutas y muestra cada fruta en la consola.
+   15) Suma todos los números en el array de números pares y muestra el resultado.
+   16) Agrega "naranja" al final del array de frutas y muestra el nuevo array.
+   17) Elimina el primer elemento del array de colores y muestra el array modificado.
+
+Maps
+------------------------------------------------------
+  Creación:
+   18) Crea un mapa que relacione nombres de países con sus capitales (por ejemplo, "España" con "Madrid").
+   19) Crea un mapa que relacione nombres de ciudades con su población (por ejemplo, "Nueva York" con 8.4 millones).
+   20) Crea un mapa que relacione nombres de frutas con sus precios.
+  Acceso y Modificación:
+   21) Accede a la capital de "Francia" en el mapa de países y muestra el resultado.
+   22) Modifica la población de "Nueva York" en el mapa de ciudades y muestra el mapa modificado.
+   23) Agrega una nueva fruta al mapa de precios y muestra el nuevo mapa.
+
+Sets
+------------------------------------------------------
+  Creación:
+   24) Crea un conjunto (set) con números impares del 1 al 9.
+   25) Crea un conjunto con nombres de animales (perro, gato, león).
+   26) Crea un conjunto con colores (rojo, verde, azul).
+  Agregar y Eliminar Elementos:
+   27) Agrega el número 11 al conjunto de números impares y muestra el conjunto actualizado.
+   28) Agrega "tigre" al conjunto de nombres de animales y muestra el conjunto actualizado.
+   29) Elimina "azul" del conjunto de colores y muestra el conjunto modificado.
+   
