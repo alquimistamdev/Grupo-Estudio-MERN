@@ -1,0 +1,51 @@
+Operadores matemáticos
+-----------------------------------------------------
+  1) Escribe una función que sume dos números y devuelva el resultado.
+  2) Crea una función que reste dos números y muestre el resultado.
+  3) Desarrolla una función que multiplique tres números entre sí.
+  4) Realiza una función que divida dos números y muestre el cociente.
+  5) Crea una función que calcule el cuadrado de un número.
+  6) Desarrolla una función que calcule el cubo de un número.
+  7) Escribe una función que calcule el área de un círculo dado su radio.
+  8) Crea una función que calcule el área de un triángulo dada su base y altura.
+  9) Realiza una función que convierta grados Celsius a Fahrenheit.
+  10) Desarrolla una función que convierta dólares a euros.
+
+Operadores lógicos
+------------------------------------------------------
+  1) Escribe una función que verifique si un número es mayor que otro.
+  2) Desarrolla una función que determine si un número es par o impar.
+  3) Crea una función que verifique si un número es positivo o negativo.
+  4) Realiza una función que compare tres números y devuelva el mayor de ellos.
+  5) Desarrolla una función que verifique si dos números son iguales.
+  6) Escribe una función que determine si un número es divisible entre otro.
+  7) Crea una función que verifique si un número está entre un rango determinado.
+  8) Desarrolla una función que evalúe si un año es bisiesto o no.
+  9) Realiza una función que verifique si una cadena de texto tiene cierta longitud.
+  10) Desarrolla una función que determine si una variable es de un tipo específico.
+
+Operadores ternarios
+------------------------------------------------------
+  1) Escribe un operador ternario que determine si un número es positivo o negativo.
+  2) Crea un operador ternario que verifique si un número es par o impar.
+  3) Desarrolla un operador ternario que compare dos números y devuelva el mayor.
+  4) Realiza un operador ternario que evalúe si un año es bisiesto o no.
+  5) Escribe un operador ternario que determine si una cadena de texto está vacía.
+  6) Crea un operador ternario que verifique si un número es divisible por otro.
+  7) Desarrolla un operador ternario que verifique si un número está entre un rango específico.
+  8) Realiza un operador ternario que convierta grados Celsius a Fahrenheit.
+  9) Escribe un operador ternario que calcule el área de un rectángulo dada su base y altura.
+  10) Crea un operador ternario que determine si una variable es de un tipo específico.
+
+Estructuras de control IF
+------------------------------------------------------
+  1) Escribe un programa que verifique si un número es positivo, negativo o cero.
+  2) Desarrolla un programa que clasifique un triángulo según sus lados (equilátero, isósceles o escaleno).
+  3) Realiza un programa que identifique si una persona puede votar según su edad.
+  4) Crea un programa que indique si una letra ingresada es una vocal o una consonante.
+  5) Escribe un programa que muestre el día de la semana según un número del 1 al 7.
+
+Estructuras de control SWITCH:
+------------------------------------------------------
+  1) Desarrolla un programa que muestre el nombre del mes según un número del 1 al 12.
+  2) Escribe un programa que convierta un número del 1 al 7 a su equivalente en texto (día de la semana).

@@ -154,9 +154,64 @@ Tema 6: Structuras de Datos
 
 
 
+/*
+
+hay situaciones específicas en las que puede ser más apropiado utilizar Map o JSON en JavaScript, dependiendo de los requisitos y el contexto de tu aplicación. Aquí hay algunos escenarios comunes donde uno puede ser preferible sobre el otro:
+
+  Usar Map:
+      1. Claves no cadenas o estructuras complejas:
+
+        * Si necesitas utilizar claves que no pueden ser representadas como cadenas (por ejemplo, objetos, funciones) o si deseas almacenar estructuras 
+          de datos más complejas como claves, entonces Map es más adecuado.
+          const persona = { nombre: 'John' };
+          const mapa = new Map();
+          mapa.set(persona, 'Información personal');
+
+      2. Iteración más eficiente:
+        * Si planeas realizar operaciones frecuentes de iteración o manipulación de pares clave-valor, Map puede ser más eficiente y ofrecer métodos específicos como forEach y entries.
+          const mapa = new Map();
+          mapa.set('clave1', 'valor1');
+          mapa.set('clave2', 'valor2');
+
+          mapa.forEach((valor, clave) => {
+            console.log(`${clave}: ${valor}`);
+          });
+
+  Usar JSON:
+      1. Interoperabilidad y Comunicación:
+        * Si necesitas intercambiar datos con otros sistemas o servicios a través de la red, JSON es un formato estándar y más ampliamente aceptado para la serialización de datos.
+
+          // Representación JSON
+          {
+            "clave1": "valor1",
+            "clave2": "valor2"
+          }
+
+      2. Persistencia de Datos:
+        * Si necesitas almacenar datos de manera persistente en un archivo o base de datos, JSON es comúnmente utilizado para este propósito debido a su formato de texto y su fácil capacidad de ser almacenado y recuperado.
+
+          // Almacenar en un archivo JSON
+          const datos = {
+            "clave1": "valor1",
+            "clave2": "valor2"
+          };
+
+          // Convertir a cadena JSON y almacenar en archivo
+          const jsonString = JSON.stringify(datos);
+          // Guardar jsonString en un archivo...
+
+      3. Estructura Simple y Claves como Cadenas:
+        * Si tu estructura de datos es simple y todas las claves pueden ser representadas como cadenas, JSON puede ser más sencillo y adecuado.
+          // Representación JSON simple
+          {
+            "nombre": "John",
+            "edad": 30,
+            "ciudad": "Ejemplo"
+          }
+*/
 
 /*
-Tema : Operadores
+Tema 7: Operadores
 ------------------------------------ */
 // - Operadores Aritmeticos:
 /*    + (Addition)
