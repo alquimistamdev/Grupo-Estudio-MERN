@@ -1,0 +1,17 @@
+Calculadora
+-----------------------------------------------------
+1) Visualización de Operaciones:
+  Modificar la calculadora para que, después de ingresar un número seguido por un operador matemático, realice el cálculo correspondiente y muestre el valor calculado junto al último operador ingresado.
+
+  Ejemplo:
+  Si se presiona "2", luego "+", y luego "1", en la pantalla se mostrará "2+1".
+  Al presionar otro operador matemático, como "+", la pantalla mostrará "3+".
+
+
+2) Comportamiento Posterior a la Igualdad:
+  Cuando se presiona el botón "=" después de una operación, la calculadora muestra el resultado. Si se presiona cualquier operador matemático después de esto, no debería mostrar toda la operación anterior.
+
+  Ejemplo:
+  Se ingresa "1+1", luego "=", y se muestra "2".
+  Si se presiona "+", la pantalla mostrará solo "1+1+".
+  La implementación requerida debe controlar la visualización de la operación actual, evitando repeticiones innecesarias de operadores y mostrando el resultado correcto en todo momento.
