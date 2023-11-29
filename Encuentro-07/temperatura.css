@@ -1,0 +1,24 @@
+body {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 230px;
+}
+
+button {
+  padding: 4px;
+  margin-left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: green
+}
